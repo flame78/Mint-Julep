@@ -8,19 +8,21 @@
             <body>Telerik</body>
             <annotatedElements>
               <commentMoniker Id="b13c4899-ffed-47db-b54e-2a88902bab37" />
+              <commentMoniker Id="d247fd51-a679-4f59-bdbd-27e39385a07f" />
             </annotatedElements>
           </comment>
           <comment Id="9f476cfe-78c0-4b57-aab7-3177bd838dbc">
             <body>Блок
-</body>
+ 1</body>
             <annotatedElements>
               <commentMoniker Id="89d22167-3f8b-4670-886a-b35fc32d3e6f" />
+              <commentMoniker Id="770181ab-fb69-44d0-b606-987853647885" />
             </annotatedElements>
           </comment>
           <comment Id="74cf35eb-e97a-4036-8abe-7536d0b64cd3">
             <body>Блок 3</body>
             <annotatedElements>
-              <commentMoniker Id="89d22167-3f8b-4670-886a-b35fc32d3e6f" />
+              <commentMoniker Id="770181ab-fb69-44d0-b606-987853647885" />
             </annotatedElements>
           </comment>
           <comment Id="732505e8-85a3-4b63-97d5-2d57160ac360">
@@ -31,17 +33,17 @@
             </annotatedElements>
           </comment>
           <comment Id="89d22167-3f8b-4670-886a-b35fc32d3e6f">
-            <body>ISP
-</body>
+            <body>Mtel</body>
             <annotatedElements>
               <commentMoniker Id="1dbbf15e-90a3-4fa1-800a-737598fa4291" />
-              <commentMoniker Id="53084759-931c-4ea2-bbbb-509f58ae4e51" />
+              <commentMoniker Id="770181ab-fb69-44d0-b606-987853647885" />
             </annotatedElements>
           </comment>
           <comment Id="53084759-931c-4ea2-bbbb-509f58ae4e51">
             <body>Електронно правителство</body>
             <annotatedElements>
-              <commentMoniker Id="6d64875b-4dce-47c1-afe5-cca6ba046860" />
+              <commentMoniker Id="1dbbf15e-90a3-4fa1-800a-737598fa4291" />
+              <commentMoniker Id="d247fd51-a679-4f59-bdbd-27e39385a07f" />
             </annotatedElements>
           </comment>
           <comment Id="b13c4899-ffed-47db-b54e-2a88902bab37">
@@ -64,6 +66,18 @@
           </comment>
           <comment Id="90f1e446-7906-4088-82b2-00198c3ebc57">
             <body>Stantek Shop :)</body>
+          </comment>
+          <comment Id="d247fd51-a679-4f59-bdbd-27e39385a07f">
+            <body>Google</body>
+            <annotatedElements>
+              <commentMoniker Id="b13c4899-ffed-47db-b54e-2a88902bab37" />
+            </annotatedElements>
+          </comment>
+          <comment Id="770181ab-fb69-44d0-b606-987853647885">
+            <body>VivaCom</body>
+            <annotatedElements>
+              <commentMoniker Id="53084759-931c-4ea2-bbbb-509f58ae4e51" />
+            </annotatedElements>
           </comment>
         </ownedCommentsInternal>
       </interaction>
