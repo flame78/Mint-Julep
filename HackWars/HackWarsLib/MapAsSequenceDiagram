@@ -53,6 +53,16 @@
               <commentMoniker Id="6d64875b-4dce-47c1-afe5-cca6ba046860" />
             </annotatedElements>
           </comment>
+          <comment Id="faf756a9-e501-47a6-9569-ef1efeeb2fcb">
+            <body>Home</body>
+            <annotatedElements>
+              <commentMoniker Id="9f476cfe-78c0-4b57-aab7-3177bd838dbc" />
+              <commentMoniker Id="90f1e446-7906-4088-82b2-00198c3ebc57" />
+            </annotatedElements>
+          </comment>
+          <comment Id="90f1e446-7906-4088-82b2-00198c3ebc57">
+            <body>Stantek Shop :)</body>
+          </comment>
         </ownedCommentsInternal>
       </interaction>
     </packageHasNamedElement>
