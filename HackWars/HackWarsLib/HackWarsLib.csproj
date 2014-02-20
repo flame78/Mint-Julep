@@ -49,11 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
-    <None Include="SequenceDiagram1.sequencediagram" />
+    <None Include="MapAsSequenceDiagram" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SequenceDiagram1.sequencediagram.layout">
-      <DependentUpon>SequenceDiagram1.sequencediagram</DependentUpon>
+      <DependentUpon>MapAsSequenceDiagram</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
