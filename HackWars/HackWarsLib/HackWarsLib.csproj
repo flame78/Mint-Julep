@@ -49,12 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
-    <None Include="MapAsSequenceDiagram" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="SequenceDiagram1.sequencediagram.layout">
-      <DependentUpon>MapAsSequenceDiagram</DependentUpon>
-    </EmbeddedResource>
+    <Content Include="Map.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
