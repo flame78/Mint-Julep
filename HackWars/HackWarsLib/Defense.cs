@@ -9,11 +9,6 @@ namespace HackWarsLib
     {
         public int defense { get; set; }
 
-        public Defense(int defense)
-        {
-            this.defense = defense;
-        }
-
         public override void Buy()
         {
             defense += defenseOfItem;
