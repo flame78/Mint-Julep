@@ -11,8 +11,16 @@
         BorderBrush="AliceBlue"
         BorderThickness="0"
         Background="Black">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="ForestGreen"/>
+        </Style>
+    </Window.Resources>
     <Grid>
-        <Button Content="Home" 
+        <Button Content="Home"
+                Click="Home"
                 HorizontalAlignment="Left" 
                 Margin="10,10,0,0" 
                 VerticalAlignment="Top" 
@@ -22,13 +30,124 @@
                 Margin="10,320,0,0" 
                 VerticalAlignment="Top" 
                 Width="121"/>
-        <Rectangle Fill="#FFF4F4F5" 
+        <Button Content="Block1" 
+                HorizontalAlignment="Left" 
+                Margin="116,30,0,0" 
+                VerticalAlignment="Top" 
+                Width="121"/>
+        <Button Content="Block2" 
+                HorizontalAlignment="Left" 
+                Margin="116,157,0,0" 
+                VerticalAlignment="Top" 
+                Width="121"/>
+        <Button Content="Block3" 
+                HorizontalAlignment="Left" 
+                Margin="116,265,0,0" 
+                VerticalAlignment="Top" 
+                Width="121"/>
+        <Rectangle Fill="White" 
                    HorizontalAlignment="Left" 
-                   Height="285" 
-                   Margin="48,35,0,0" 
-                   Stroke="Black" 
+                   Height="290" 
+                   Margin="48,30,0,0" 
+                   Stroke="Green" 
                    VerticalAlignment="Top" 
-                   Width="1"/>
-
+                   Width="2"/>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="32" 
+                   Margin="99,17,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-68.878"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="105" 
+                   Margin="176,52,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.795"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="90" 
+                   Margin="177,177,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.254"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Button Content="Mtel" 
+                HorizontalAlignment="Left" 
+                Margin="275,265,0,0" 
+                VerticalAlignment="Top" 
+                Width="68"/>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="53" 
+                   Margin="259,248,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="174" 
+                   Margin="305,91,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2"/>
+        <Button Content="Vivacom" 
+                HorizontalAlignment="Left" 
+                Margin="275,66,0,0" 
+                VerticalAlignment="Top" 
+                Width="68"/>
+        <Rectangle Fill="White" 
+                   HorizontalAlignment="Left" 
+                   Height="103" 
+                   Margin="271,71,0,0" 
+                   Stroke="Green" 
+                   VerticalAlignment="Top" 
+                   Width="2" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-133.889"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
     </Grid>
 </Window>
