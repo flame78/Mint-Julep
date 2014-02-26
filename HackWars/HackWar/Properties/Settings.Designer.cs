@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPF_UI.Properties
+namespace HackWar.Properties
 {
 
 

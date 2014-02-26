@@ -48,9 +48,6 @@
     <Compile Include="Hacker.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="map.xaml.cs">
-      <DependentUpon>map.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shop.cs" />
     <Compile Include="SysAdmin.cs" />
@@ -61,12 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Map.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="map.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

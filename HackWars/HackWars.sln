@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{35875714-C89
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackWarsLib", "HackWarsLib\HackWarsLib.csproj", "{05DFB9A5-6C35-4CD6-84B6-FF33A45AA7CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-UI", "WPF-UI\WPF-UI.csproj", "{9B63AD43-B48F-432C-A289-C6AC7B9330EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackWar", "HackWar\HackWar.csproj", "{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{05DFB9A5-6C35-4CD6-84B6-FF33A45AA7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DFB9A5-6C35-4CD6-84B6-FF33A45AA7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DFB9A5-6C35-4CD6-84B6-FF33A45AA7CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B63AD43-B48F-432C-A289-C6AC7B9330EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B63AD43-B48F-432C-A289-C6AC7B9330EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B63AD43-B48F-432C-A289-C6AC7B9330EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B63AD43-B48F-432C-A289-C6AC7B9330EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
