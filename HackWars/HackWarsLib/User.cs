@@ -8,7 +8,7 @@ namespace HackWarsLib
 {
     class User : Hero
     {
-        public Hacker(string name) : base(name)
+        public User(string name) : base(name)
         {
         }
     }

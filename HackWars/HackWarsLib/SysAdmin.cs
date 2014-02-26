@@ -7,7 +7,7 @@ namespace HackWarsLib
 {
     public class SysAdmin : Hero
     {
-        public Hacker(string name) : base(name)
+        public SysAdmin(string name) : base(name)
         {
         }
     }

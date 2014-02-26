@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Mime;
 using System.Text;
 
+
 namespace HackWarsLib
 {
     abstract public class Hero
@@ -12,9 +13,9 @@ namespace HackWarsLib
 
         private Item[] inventory;
 
-        public MediaTypeNames.Image Picture { get; private set; }
+        //public ImageSource Picture { get; private set; }
 
-        public Hero(string name, MediaTypeNames.Image picture = null ,params Item[] items )
+        public Hero(string name,params Item[] items )
         {
             this.Name = name;
             this.inventory = new Item[10];
