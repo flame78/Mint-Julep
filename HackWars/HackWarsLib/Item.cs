@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HackWarsLib
 {
-    public class Item
+    public abstract class Item
     {
         public Item[] itemList;
         public string name { get; set; }
@@ -19,6 +19,10 @@ namespace HackWarsLib
             this.price = price;
             this.defenseOfItem = defenseOfItem;
             this.attackOfItem = attackOfItem;
+        }
+
+        public Item()
+        {
         }
 
         public Item(int itemCount)

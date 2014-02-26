@@ -7,7 +7,7 @@ namespace HackWarsLib
 {
     public class Hero
     {
-        public Item Item
+        public DefenseItem Item
         {
             get
             {
