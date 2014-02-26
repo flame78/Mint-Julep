@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HackWarsLib
 {
-    public class Defense : Item
+    public class DefenseItem : Item
     {
         public int defense { get; set; }
 

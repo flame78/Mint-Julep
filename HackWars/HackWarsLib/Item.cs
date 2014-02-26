@@ -5,20 +5,16 @@ using System.Text;
 
 namespace HackWarsLib
 {
-    public class Item
+    abstract public class Item
     {
-        public Item[] itemList;
-        public string name { get; set; }
-        public double price { get; set; }
-        public int defenseOfItem { get; set; }
-        public int attackOfItem { get; set; }
-
-        public Item(string name, double price, int defenseOfItem, int attackOfItem)
+      public string Name { get; private set; }
+        public double Price { get; private set; }
+      
+        public Item(string name, double price)
         {
-            this.name = name;
-            this.price = price;
-            this.defenseOfItem = defenseOfItem;
-            this.attackOfItem = attackOfItem;
+            this.Name = name;
+            this.Price = price;
+        
         }
 
         public Item()

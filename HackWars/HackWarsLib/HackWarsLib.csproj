@@ -43,8 +43,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attack.cs" />
-    <Compile Include="Defense.cs" />
+    <Compile Include="AttackItem.cs" />
+    <Compile Include="DefenseItem.cs" />
     <Compile Include="Hacker.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Item.cs" />

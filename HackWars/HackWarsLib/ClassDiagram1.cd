@@ -17,22 +17,22 @@
   <Class Name="HackWarsLib.Item">
     <Position X="4.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIBAAAAAAAAAACAQAAAAABAAAAEAAgAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAQAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="HackWarsLib.Defense">
+  <Class Name="HackWarsLib.DefenseItem">
     <Position X="3.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>Defense.cs</FileName>
+      <FileName>DefenseItem.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="HackWarsLib.Attack">
+  <Class Name="HackWarsLib.AttackItem">
     <Position X="5.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
-      <FileName>Attack.cs</FileName>
+      <FileName>AttackItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="HackWarsLib.SysAdmin">
