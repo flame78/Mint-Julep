@@ -9,6 +9,7 @@ namespace HackWarsLib
 {
     abstract public class Hero
     {
+
         public string Name { get; private set; }
 
         private Item[] inventory;
