@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HackWarsLib
 {
-    public abstract class Item
+    public class Item
     {
         public Item[] itemList;
         public string name { get; set; }

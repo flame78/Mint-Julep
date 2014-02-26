@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HackWarsLib
 {
-    public class SysAdmin : Hero
+    class User : Hero
     {
-        public SysAdmin(string name) : base(name)
+        public User(string name) : base(name)
         {
         }
     }
