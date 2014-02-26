@@ -21,6 +21,10 @@ namespace HackWarsLib
             this.attackOfItem = attackOfItem;
         }
 
+        public Item()
+        {
+        }
+
         public Item(int itemCount)
         {
             this.itemList = new Item[itemCount];
