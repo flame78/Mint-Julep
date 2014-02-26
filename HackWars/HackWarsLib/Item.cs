@@ -7,6 +7,7 @@ namespace HackWarsLib
 {
     public class Item
     {
+        public Item[] itemList;
         public string name { get; set; }
         public double price { get; set; }
         public int defenseOfItem { get; set; }
@@ -18,6 +19,11 @@ namespace HackWarsLib
             this.price = price;
             this.defenseOfItem = defenseOfItem;
             this.attackOfItem = attackOfItem;
+        }
+
+        public Item(int itemCount)
+        {
+            this.itemList = new Item[itemCount];
         }
 
         public virtual void Buy()
