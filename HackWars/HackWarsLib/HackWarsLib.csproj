@@ -48,9 +48,6 @@
     <Compile Include="Hacker.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="map.xaml.cs">
       <DependentUpon>map.xaml</DependentUpon>
     </Compile>
@@ -66,10 +63,6 @@
     <Content Include="Map.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="map.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
