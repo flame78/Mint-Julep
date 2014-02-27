@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackWarsLib", "HackWarsLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackWar", "HackWar\HackWar.csproj", "{D3CAC792-72D5-4C7B-9C64-AFAA15722C7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0437D2ED-4FB7-4BAD-B6AC-DDCED6B340B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Mint Julep C# OOP Teamwork Assignment vFinal.docx = ..\..\..\..\Downloads\Mint Julep C# OOP Teamwork Assignment vFinal.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
