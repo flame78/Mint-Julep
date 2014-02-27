@@ -23,7 +23,7 @@ namespace HackWarsLib
 
         public Item(int itemCount)
         {
-            this.itemList = new Item[itemCount];
+           // this.itemList = new Item[itemCount];
         }
 
         public virtual void Buy()
