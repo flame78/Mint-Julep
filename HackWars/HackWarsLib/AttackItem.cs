@@ -11,11 +11,11 @@ namespace HackWarsLib
 
         public override void Buy()
         {
-            attack += attackOfItem;
+         //   attack += attackOfItem;
         }
         public override void Sell()
         {
-            attack -= attackOfItem;
+         //   attack -= attackOfItem;
         }
     }
 }
